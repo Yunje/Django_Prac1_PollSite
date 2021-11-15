@@ -19,6 +19,7 @@ class BooksModelView(TemplateView):
 class BookList(ListView):
     model = Book
     
+    
 class AuthorList(ListView):
     model = Author
     
